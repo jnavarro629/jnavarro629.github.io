@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Begoñalde - Club de tenis y pádel en Bilbao</title>
+    <!-- FIRA SANS FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header-principal">
+      <div class="cabecera-1">
+        <div class="redes-sociales">
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="login-miembros">
+          <a href="login.html" class="boton-login">Iniciar sesión</a>
+        </div>
+      </div>
+      <div class="cabecera-2">
+        <div class="menu-container">
+          <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+          <nav class="menu">
+            <ul>
+              <li><a href="#club">CLUB</a></li>
+              <li><a href="#escuela">ESCUELA</a></li>
+              <li><a href="#campus">CAMPUS</a></li>
+              <li><a href="#servicios">SERVICIOS</a></li>
+              <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <a href="https://clubtenisbegonalde.com/"
+        ><img
+          class="logo-cabecera"
+          src="img/logo/logo-sinblanco.png"
+          alt="Begoñalde Logo"
+      /></a>
+    </header>
+    <main>
+      <!--ACTUALIDAD-->
+      <section id="noticias">
+        <h1 class="titulo-section">ACTUALIDAD DEL CLUB</h1>
+        <article>
+          <div class="noticias-container">
+            <!-- Fila superior (3 tarjetas) -->
+            <div class="noticias-fila">
+              <div
+                class="noticia-card"
+                style="background-image: url('img/fotos/final-1.webp')"
+              >
+                <div class="noticia-contenido">
+                  <h3 class="noticia-titulo">Torneo de Verano 2023</h3>
+                  <p class="noticia-meta">Competición • 15 Jun 2023</p>
+                </div>
+              </div>
+              <div
+                class="noticia-card"
+                style="background-image: url('img/fotos/atk-8.webp')"
+              >
+                <div class="noticia-contenido">
+                  <h3 class="noticia-titulo">Nuevas Instalaciones</h3>
+                  <p class="noticia-meta">Club • 2 May 2023</p>
+                </div>
+              </div>
+              <div
+                class="noticia-card"
+                style="background-image: url('img/fotos/clases.webp')"
+              >
+                <div class="noticia-contenido">
+                  <h3 class="noticia-titulo">Clases para Niños</h3>
+                  <p class="noticia-meta">Escuela • 10 Abr 2023</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fila inferior (4 tarjetas) -->
+            <div class="noticias-fila">
+              <div
+                class="noticia-card"
+                style="background-image: url('img/fotos/bn-19.webp')"
+              >
+                <div class="noticia-contenido">
+                  <h3 class="noticia-titulo">Campeonato Regional</h3>
+                  <p class="noticia-meta">Competición • 22 Mar 2023</p>
+                </div>
+              </div>
+              <div
+                class="noticia-card"
+                style="background-image: url('img/fotos/c-106.webp')"
+              >
+                <div class="noticia-contenido">
+                  <h3 class="noticia-titulo">Horarios de Verano</h3>
+                  <p class="noticia-meta">Servicios • 5 Feb 2023</p>
+                </div>
+              </div>
+              <div
+                class="noticia-card"
+                style="
+                  background-image: url('img/fotos/whatsapp-image-2023-04-05-at-21.59.39.webp');
+                "
+              >
+                <div class="noticia-contenido">
+                  <h3 class="noticia-titulo">Nuevo Entrenador</h3>
+                  <p class="noticia-meta">Escuela • 18 Ene 2023</p>
+                </div>
+              </div>
+              <div
+                class="noticia-card"
+                style="background-image: url('img/fotos/final-1-2.webp')"
+              >
+                <div class="noticia-contenido">
+                  <h3 class="noticia-titulo">Abierto el Campus</h3>
+                  <p class="noticia-meta">Campus • 3 Ene 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="club" class="fondo-rojo">
+        <h1 class="titulo-section rojo">CLUB</h1>
+        <article>
+          <div class="columnas-club">
+            <div class="texto-club">
+              <h2>Conócemos</h2>
+              <p>
+                Somos el Club de Tenis Begoñalde de Bilbao, una asociación sin
+                ánimo de lucro que promueve el tenis desde hace más de 10 años.
+              </p>
+              <p>
+                El Club no dispone de instalaciones propias, utilizamos las
+                instalaciones de Bilbao Kirolak de San Ignacio para las
+                actividades deportivas de nuestra Escuela y Campus, por lo que
+                es necesario ser abonado a Bilbao Kirolak o, en su defecto, la
+                correspondiente entrada, que se podrá adquirir en la propia
+                instalación.
+              </p>
+              <p>
+                A lo largo de todo el año, organizamos eventos relacionados con
+                el tenis y el pádel: escuela; torneos; ranking; masterclass;
+                campeonatos interclubes; campus; etc.; a través de los cuales
+                puedes hacer nuevas amistades, practicar, competir y, en
+                definitiva, disfrutar del deporte a cualquier edad. Puedes
+                encontrar información específica en las secciones de nuestra
+                web.
+              </p>
+              <p>
+                ¡Consulta nuestros horarios y anímate a apuntarte en algunos de
+                nuestros cursos o únete a la lista de espera y nos veremos muy
+                pronto!
+              </p>
+              <div class="botones-club">
+                <a href="#contacto" class="boton">Únete al Club</a>
+                <a href="#contacto" class="boton boton-secundario"
+                  >Más información</a
+                >
+              </div>
+            </div>
+            <div class="imagen-club">
+              <img
+                src="img/logo/logo-sinblanco.png"
+                alt="Logo del Club Begoñalde"
+              />
+            </div>
+          </div>
+        </article>
+      </section>
+      <!--ESCUELA-->
+      <section id="escuela">
+        <h1 class="titulo-section">ESCUELA</h1>
+        <article>
+          <div class="contenedor-escuela">
+            <!-- Columna izquierda - Carrusel -->
+            <div class="columna-carrusel">
+              <div class="carrusel-escuela">
+                <div class="tarjetas-container">
+                  <!-- Tarjeta Tenis -->
+                  <div class="tarjeta-escuela activa">
+                    <h2>Tenis</h2>
+                    <p>Clases:</p>
+                    <ul>
+                      <li>
+                        El acceso a la escuela y la distribución de los grupos
+                        se realizarán en función de la técnica, nivel y edad
+                        siempre a criterio de nuestro personal técnico.
+                      </li>
+                      <li>
+                        Los grupos de entrenamiento serán de un máximo de 6
+                        personas por pista de tenis, pudiendo variar la duración
+                        de cada sesión de entre 1 hora a 1 hora y 30 minutos,
+                        dependiendo del grupo, y estarán destinados a federados
+                        tanto con la licencia escolar como con la licencia
+                        federativa.
+                      </li>
+                      <li>
+                        Para la incorporación a la escuela será imprescindible
+                        pertenecer al club. Puedes realizar tu inscripción a
+                        través de esta misma web o haciendo clic aquí.
+                      </li>
+                    </ul>
+                    <p>Masterclass - Clases específicas:</p>
+                    <ul>
+                      <li>
+                        Organizamos periódicamente clases especializadas en uno
+                        o varios aspectos concretos del tenis. Clases enfocadas
+                        al juego en la red, saque, resto, revés, estrategia de
+                        juego, etc. Un espacio ideal para pulir y perfeccionar
+                        detalles de tu juego.
+                      </li>
+                      <li>
+                        Mantente al día en la sección de actualidad del club o
+                        comprueba el calendario del club para descubrir cuándo
+                        dará lugar la próxima masterclass. Si hay alguna
+                        programada, puedes apuntarte utilizando el siguiente
+                        formulario y eligiendo como fecha el día de la
+                        masterclass.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- Tarjeta Pádel -->
+                  <div class="tarjeta-escuela">
+                    <h2>Pádel</h2>
+                    <p>Clases:</p>
+                    <ul>
+                      <li>
+                        El acceso a la escuela y la distribución de los grupos
+                        se realizarán en función de la técnica, nivel y edad
+                        siempre a criterio de nuestro personal técnico.
+                      </li>
+                      <li>
+                        Para la incorporación a la escuela será imprescindible
+                        pertenecer al club. Puedes realizar tu inscripción a
+                        través de esta misma web o haciendo clic aquí.
+                      </li>
+                    </ul>
+                    <p>Masterclass - Clases específicas:</p>
+                    <ul>
+                      <li>
+                        Como en tenis, en Begoñalde también organizamos
+                        periódicamente clases especializadas en uno o varios
+                        aspectos concretos del pádel. Clases enfocadas al juego
+                        en la red, bandejas, remates, estrategia de juego, etc.
+                        Un espacio ideal para pulir y perfeccionar detalles de
+                        tu juego.
+                      </li>
+                      <li>
+                        Mantente al día en la sección de actualidad del club o
+                        comprueba el calendario del club para descubrir cuándo
+                        dará lugar la próxima masterclass. Si hay alguna
+                        programada, puedes apuntarte utilizando el siguiente
+                        formulario y eligiendo como fecha el día de la
+                        masterclass.
+                      </li>
+                    </ul>
+                    <p>Torneos exprés:</p>
+                    <ul>
+                      <li>
+                        Los torneos exprés son competiciones que se disputan
+                        durante un solo día. Pueden participar un máximo de 8
+                        parejas y cada edición puede tener unas características
+                        distintas.
+                      </li>
+                      <li>
+                        Si formas parte del club, puedes contactarnos para que
+                        lo organicemos o puedes participar en uno que vaya a
+                        tener lugar próximamente.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Controles del carrusel -->
+                <div class="controles-carrusel">
+                  <button
+                    class="control-carrusel anterior"
+                    aria-label="Anterior"
+                  >
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+                  <div class="indicadores">
+                    <button
+                      class="indicador activo"
+                      aria-label="Mostrar tarjeta 1"
+                    ></button>
+                    <button
+                      class="indicador"
+                      aria-label="Mostrar tarjeta 2"
+                    ></button>
+                  </div>
+                  <button
+                    class="control-carrusel siguiente"
+                    aria-label="Siguiente"
+                  >
+                    <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Columna derecha - Formulario -->
+            <div class="columna-formulario">
+              <div class="formulario-escuela">
+                <h3>¿Quieres más información?</h3>
+                <form>
+                  <div class="campo-formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required />
+                  </div>
+                  <div class="campo-formulario">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+                  <div class="campo-formulario">
+                    <label for="interes">Interesado en:</label>
+                    <select id="interes" name="interes">
+                      <option value="tenis">Tenis</option>
+                      <option value="padel">Pádel</option>
+                      <option value="ambos">Ambos</option>
+                    </select>
+                  </div>
+                  <div class="campo-formulario">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                  </div>
+                  <button type="submit" class="boton">Enviar consulta</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!--------------------CAMPUS-------------------->
+      <section id="campus" class="fondo-rojo">
+        <h1 class="titulo-section rojo">CAMPUS</h1>
+        <article>
+          <div class="contenedor-campus">
+            <!-- Columna izquierda - 3 tarjetas -->
+            <div class="columna-tarjetas">
+              <!-- Tarjeta superior -->
+              <div class="tarjeta-campus grande">
+                <h3>Programa de Verano</h3>
+                <p>
+                  En Begoñalde contamos con una larga experiencia llevando a
+                  cabo esta actividad durante los periodos de festividad
+                  escolar. Principalmente en verano, pero también en navidades y
+                  semana santa. A lo largo de la mañana, de lunes a viernes,
+                  nuestras niñas y niños están continuamente aprendiendo a la
+                  vez que trabajan en grupo mientras hacen deporte, siempre
+                  desde el respeto, el compromiso y la motivación. Nuestra
+                  principal actividad es el tenis, a la que complementamos con
+                  el pádel.
+                </p>
+              </div>
+
+              <!-- Fila inferior con 2 tarjetas -->
+              <div class="fila-tarjetas">
+                <div class="tarjeta-campus pequena">
+                  <p>
+                    Las actividades se desarrollan normalmente en la instalación
+                    de San Ignacio desde las 09:00 hasta las 14:00 horas
+                    aproximadamente. El horario de entrada es desde las 8:45 de
+                    la mañana. En el campus realizamos 2 horas de tenis
+                    dirigidas. Trabajando con cubos o cestos los diferentes
+                    golpes y perfeccionando la técnica de cada uno de ellos.
+                    Además de tenis impartimos también una clase dirigida de
+                    pádel, intercalando durante la mañana actividad física
+                    acorde a cada grupo para terminar en la piscina./p>
+                  </p>
+                </div>
+
+                <div class="tarjeta-campus pequena">
+                  <p>
+                    Participan peques de entre 10 y 15/16 años que habitualmente
+                    practican tenis y/o pádel durante el resto del año, aunque
+                    esto no es estrictamente necesario. Nos organizamos en
+                    grupos reducidos de 6 integrantes como máximo y 4 como
+                    mínimo, intentando que sean grupos con un nivel lo más
+                    homogéneo viable para que puedan disfrutar y aprovechar lo
+                    máximo posible.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Columna derecha - Carrusel de imágenes -->
+            <div class="columna-carrusel">
+              <div class="carrusel-campus">
+                <div class="imagen-carrusel activa">
+                  <img src="img/fotos/campus-2.webp" alt="Campus de verano" />
+                </div>
+                <div class="imagen-carrusel">
+                  <img src="img/fotos/campus.webp" alt="Entrenamiento junior" />
+                </div>
+                <div class="imagen-carrusel">
+                  <img src="img/fotos/c-106.webp" alt="Actividades grupales" />
+                </div>
+
+                <!-- Controles del carrusel -->
+                <button class="control-carrusel anterior-campus">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="control-carrusel siguiente-campus">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!--------------------SERVICIOS-------------------->
+      <section id="servicios">
+        <h1 class="titulo-section">BENEFICIOS DE FORMAR PARTE DEL CLUB</h1>
+        <article>
+          <div class="contenedor-servicios">
+            <!-- Columna izquierda - Tarjeta grande -->
+            <div class="columna-grande">
+              <div class="tarjeta-servicio grande">
+                <h2>Nuestros servicios</h2>
+                <p>
+                  Existe una inmensa variedad de raquetas de tenis y palas de
+                  pádel. Cada una, aparte de ser más bonita que otras, tiene
+                  unas características en su diseño (forma, peso, tamaño,
+                  balance, etc.) que le aporta diferente rendimiento. Además de
+                  las posibilidades que te ofrece cada raqueta o pádel, cada
+                  persona tiene un estilo de juego, una forma de golpear la
+                  pelota, o un objetivo de juego marcado. Por lo tanto, la
+                  elección de tu nueva raqueta o pala es muy importante y va a
+                  afectar a cómo jugarás y a tu cuerpo: potencia de tus golpes;
+                  spin; dolores musculares; control; etc.
+                </p>
+                <p>
+                  Conocemos a nuestro integrantes y, por esto, les podemos
+                  asesorar en la compra de material deportivo, además de
+                  disponer el club de acceso a ofertas interesantes.
+                </p>
+              </div>
+            </div>
+
+            <!-- Columna derecha - 4 tarjetas pequeñas -->
+            <div class="columna-pequenas">
+              <div class="fila-tarjetas">
+                <div class="tarjeta-servicio pequena">
+                  <h3>Raquetas de tenis</h3>
+                  <p>
+                    Existen varios aspectos a tener en cuenta a la hora de
+                    elegir una raqueta de tenis adecuada para nuestro nivel y
+                    tipo de juego y condiciones físicas. El tamaño, su peso, el
+                    balance, el perfil, la velocidad de nuestro gesto de golpeo,
+                    etc. ¡Te podemos ayudar a encontrar la raqueta perfecta para
+                    ti!
+                  </p>
+                </div>
+                <div class="tarjeta-servicio pequena">
+                  <h3>Palas de pádel</h3>
+                  <p>
+                    Con las palas de pádel existe prácticamente la misma
+                    situación y para dar con la pala ideal para nuestro juego se
+                    deben considerar ciertas cualidades de las palas: su forma;
+                    el peso; el balance, sus materiales, etc. ¡No dudes en
+                    contactarnos y nuestro equipo experto te ayudará!
+                  </p>
+                </div>
+              </div>
+              <div class="fila-tarjetas">
+                <div class="tarjeta-servicio pequena">
+                  <h3>Pelotas y otro material deportivo</h3>
+                  <p>
+                    El Club Begoñalde también ayuda a las personas abonadas en
+                    la compra de botes de pelotas de tenis y pádel y otro
+                    material deportivo: raqueteros, paleteros, zapatos, etc.
+                    Escríbenos para saber más.
+                  </p>
+                </div>
+                <div class="tarjeta-servicio pequena">
+                  <h3>Encordado de raquetas de tenis</h3>
+                  <p>
+                    El Club ofrece servicio de encordado de raquetas de tenis
+                    sin la necesidad de formar parte de él, ¡aunque te estarías
+                    perdiendo todas nuestras ventajas y un precio un poco
+                    especial en tu cordaje nuevo!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="contacto" class="fondo-rojo-oscuro">
+        <h1 class="titulo-section rojo">CONTACTO</h1>
+        <article>
+          <div class="columnas-club">
+            <div class="texto-club">
+              <h3>
+                No dudes en preguntarnos cualquier duda que tengas. Puedes
+                utilizar el siguiente formulario:
+              </h3>
+              <form class="formulario-escuela">
+                <div class="campo-formulario">
+                  <label for="nombre-contacto">Nombre:</label>
+                  <input
+                    type="text"
+                    id="nombre-contacto"
+                    name="nombre"
+                    required
+                  />
+                </div>
+                <div class="campo-formulario">
+                  <label for="email-contacto">Email:</label>
+                  <input
+                    type="email"
+                    id="email-contacto"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="campo-formulario">
+                  <label for="mensaje-contacto">Mensaje:</label>
+                  <textarea
+                    id="mensaje-contacto"
+                    name="mensaje"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="boton">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="calendar-section animated-section">
+        <h1>Calendario de Torneos y Eventos</h1>
+        <!-- Botones calendario circuito -->
+        <div class="pdf-buttons-container">
+          <a
+            href="https://www.fbizkainatenis.eus/images/2025/Docs/Calendarios/2025_Calendario_FBT.pdf"
+            class="boton-pdf"
+            target="_blank"
+          >
+            <i class="fas fa-file-pdf"></i> Calendario Competiciones 2025
+          </a>
+          <a
+            href="https://www.fbizkainatenis.eus/images/2025/Docs/Calendarios/2025_Calendario_CB_FBT.pdf"
+            class="boton-pdf"
+            target="_blank"
+          >
+            <i class="fas fa-file-pdf"></i> Competiciones Circuito Bizkaia 2025
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- MODAL INSCRIPCIÓN  -->
+
+    <!-- Modal Inscripción -->
+    <div id="modal-inscripcion" class="modal">
+      <div class="modal-contenido">
+        <span class="cerrar">&times;</span>
+        <h2>Formulario de Inscripción</h2>
+        <p>
+          Puedes unirte cuando quieras y empezar disfrutar de todas las ventajas
+          que te ofrece pertenecer a nuestro Club, tan solo tienes que rellenar
+          el siguiente formulario:
+        </p>
+        <form class="formulario-escuela">
+          <div class="campo-formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+          <div class="campo-formulario">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required />
+          </div>
+          <div class="campo-formulario">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required />
+          </div>
+          <div class="campo-formulario">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required />
+          </div>
+          <div class="campo-formulario">
+            <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+            <input
+              type="date"
+              id="fecha-nacimiento"
+              name="fecha-nacimiento"
+              required
+            />
+          </div>
+          <div class="campo-formulario">
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required />
+          </div>
+          <div class="campo-formulario">
+            <label for="direccion">Dirección completa:</label>
+            <input type="text" id="direccion" name="direccion" required />
+          </div>
+          <div class="campo-formulario">
+            <label for="nivel">Nivel de juego:</label>
+            <select id="nivel" name="nivel" required>
+              <option value="principiante">Iniciación</option>
+              <option value="intermedio">Medio</option>
+              <option value="avanzado">Avanzado</option>
+              <option value="avanzado">Competición</option>
+            </select>
+          </div>
+          <div class="campo-formulario">
+            <label for="abono">Nº abono Bilbao Kirolak:</label>
+            <input type="text" id="abono" name="abono" required />
+          </div>
+
+          <h3>Menores de edad</h3>
+          <div class="campo-formulario">
+            <label for="tutor">Nombre y apellidos del tutor legal:</label>
+            <input type="text" id="tutor" name="tutor" />
+          </div>
+          <div class="campo-formulario">
+            <label for="telefono-tutor">Teléfono del tutor:</label>
+            <input type="tel" id="telefono-tutor" name="telefono-tutor" />
+          </div>
+          <div class="campo-formulario">
+            <label for="dni-tutor">DNI del tutor:</label>
+            <input type="text" id="dni-tutor" name="dni-tutor" />
+          </div>
+          <div class="campo-formulario">
+            <label>
+              <input type="checkbox" name="autorizo" />
+              Autorizo a la escuela a publicar fotos donde aparece mi hijo/a en
+              prensa, cartelería y página web.
+            </label>
+          </div>
+
+          <p class="texto-legal">
+            En cumplimiento de lo establecido en la Ley Orgánica 3/2018, de 5 de
+            diciembre, de Protección de Datos Personales y garantía de los
+            derechos digitales, le informamos que sus datos personales serán
+            tratados y quedarán incorporados en los ficheros del Club de Tenis
+            Begoñalde, con el fin de prestarles los servicios solicitados, así
+            como para realizar las tareas administrativas relacionadas con la
+            prestación del servicio. En este sentido, usted consiente que sus
+            datos sean tratados para dar cumplimiento a la finalidad indicada
+            anteriormente así como para remitirle información relativa a las
+            ofertas y servicios de especial interés para usted, incluso a través
+            de correo electrónico o SMS. En este sentido usted consiente el
+            tratamiento de los datos para fines internos del propio club.
+            Asimismo, le informamos que usted puede ejercitar los derechos de
+            acceso, rectificación, cancelación y oposición en la sede del propio
+            club o a través de esta web.
+            <br /><br />
+            Al unirte al Club, aceptas que te realicemos fotografías y las
+            utilicemos en nuestra web y redes sociales.
+          </p>
+
+          <button type="submit" class="boton">Enviar inscripción</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer-1">
+        <div class="nombre-columna">
+          <img src="img/logo/oficial_blanco.png" class="logo-footer" />
+        </div>
+        <div class="enlaces-columna">
+          <ul class="footer-enlaces">
+            <li><a href="#club">Home</a></li>
+            <li><a href="#club">Club</a></li>
+            <li><a href="#escuela">Escuela</a></li>
+            <li><a href="#campus">Campus</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="mapa-columna">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.6367199737033!2d-2.962702323765878!3d43.27998597112239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e506d71fc9cdd%3A0x85f48ef1e08b0218!2sPolideportivo%20San%20Ignacio%20-%20Bilbao%20Kirolak!5e0!3m2!1ses!2ses!4v1745331795426!5m2!1ses!2ses"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="footer-mapa"
+          ></iframe>
+        </div>
+      </div>
+      <div class="footer-2">
+        <div class="container-footer-2">
+          © Begoñalde Club de Tenis. Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal de Login - Insertar antes del cierre de </body> -->
+    <div id="modal-login" class="modal">
+      <div class="modal-contenido modal-login">
+        <span class="cerrar cerrar-login">&times;</span>
+        <h2>Iniciar Sesión</h2>
+        <p>Accede a tu área de miembro del Club Begoñalde</p>
+
+        <form id="form-login" class="formulario-login">
+          <div class="campo-formulario">
+            <label for="usuario-login">Usuario:</label>
+            <input
+              type="text"
+              id="usuario-login"
+              name="usuario"
+              required
+              autocomplete="username"
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="password-login">Contraseña:</label>
+            <input
+              type="password"
+              id="password-login"
+              name="password"
+              required
+              autocomplete="current-password"
+            />
+          </div>
+
+          <div
+            id="error-login"
+            class="error-message"
+            style="display: none"
+          ></div>
+
+          <button type="submit" class="boton boton-login-submit">
+            Iniciar Sesión
+          </button>
+        </form>
+
+        <div class="login-footer">
+          <p>
+            ¿No tienes cuenta?
+            <a href="#contacto" class="enlace-registro"
+              >Contacta con nosotros</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--SCRIPTS-->
+    <script src="js/credenciales.js"></script>
+    <script src="js/principal.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
