@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Begoñalde - Ranking</title>
+    <!-- FIRA SANS FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome para iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/area-personal-styles.css" />
+    <style>
+      /* Estilos específicos para el formulario de ranking */
+      .formulario-ranking {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .formulario-ranking h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #7b1a06;
+      }
+
+      .tabla-resultados {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+
+      .tabla-resultados th,
+      .tabla-resultados td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+
+      .tabla-resultados th {
+        background-color: #7b1a06;
+        color: white;
+        font-weight: 600;
+      }
+
+      .tabla-resultados tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      .tabla-resultados input {
+        width: 80%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        text-align: center;
+      }
+
+      .boton-enviar {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        padding: 12px;
+        background-color: #7b1a06;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .boton-enviar:hover {
+        background-color: #5a1304;
+      }
+
+      .contenido-pagina {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header-principal">
+      <div class="cabecera-1">
+        <div class="redes-sociales">
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="login-miembros">
+          <a href="login.html" class="boton-login">Área de Miembros</a>
+        </div>
+      </div>
+      <div class="cabecera-2">
+        <div class="menu-container">
+          <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+          <nav class="menu">
+            <ul>
+              <li><a href="#club">CLUB</a></li>
+              <li><a href="#escuela">ESCUELA</a></li>
+              <li><a href="#campus">CAMPUS</a></li>
+              <li><a href="#servicios">SERVICIOS</a></li>
+              <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <a href="https://clubtenisbegonalde.com/"
+        ><img
+          class="logo-cabecera"
+          src="img/logo/logo-sinblanco.png"
+          alt="Begoñalde Logo"
+      /></a>
+    </header>
+
+    <main>
+      <section id="ranking">
+        <h1 class="titulo-section">RANKING</h1>
+        <div class="contenido-pagina">
+          <div class="formulario-ranking">
+            <h2>Registrar Resultado de Partido</h2>
+            <form id="form-ranking">
+              <table class="tabla-resultados">
+                <thead>
+                  <tr>
+                    <th>Jugador</th>
+                    <th>Set 1</th>
+                    <th>Set 2</th>
+                    <th>Set 3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <input
+                        type="text"
+                        placeholder="Nombre del tenista ganador"
+                        required
+                      />
+                    </td>
+                    <td><input type="number" min="0" max="7" required /></td>
+                    <td><input type="number" min="0" max="7" required /></td>
+                    <td><input type="number" min="0" max="7" /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input
+                        type="text"
+                        placeholder="Nombre del tenista perdedor"
+                        required
+                      />
+                    </td>
+                    <td><input type="number" min="0" max="7" required /></td>
+                    <td><input type="number" min="0" max="7" required /></td>
+                    <td><input type="number" min="0" max="7" /></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <button type="submit" class="boton-enviar">
+                Enviar Resultado
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-1">
+        <div class="nombre-columna">
+          <img
+            src="https://via.placeholder.com/150x50/ffffff/7b1a06?text=LOGO"
+            class="logo-footer"
+          />
+        </div>
+        <div class="enlaces-columna">
+          <ul class="footer-enlaces">
+            <li><a href="#club">Home</a></li>
+            <li><a href="#club">Club</a></li>
+            <li><a href="#escuela">Escuela</a></li>
+            <li><a href="#campus">Campus</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="mapa-columna">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.6367199737033!2d-2.962702323765878!3d43.27998597112239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e506d71fc9cdd%3A0x85f48ef1e08b0218!2sPolideportivo%20San%20Ignacio%20-%20Bilbao%20Kirolak!5e0!3m2!1ses!2ses!4v1745331795426!5m2!1ses!2ses"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="footer-mapa"
+          ></iframe>
+        </div>
+      </div>
+      <div class="footer-2">
+        <div class="container-footer-2">
+          © Begoñalde Club de Tenis. Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Script para el menú responsive
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const menu = document.querySelector(".menu");
+
+        menuToggle.addEventListener("click", function () {
+          menu.classList.toggle("active");
+        });
+
+        // Script para el formulario de ranking
+        const formularioRanking = document.getElementById("form-ranking");
+        formularioRanking.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Validación básica
+          const inputs = formularioRanking.querySelectorAll("input[required]");
+          let valid = true;
+
+          inputs.forEach((input) => {
+            if (!input.value) {
+              valid = false;
+              input.style.borderColor = "red";
+            } else {
+              input.style.borderColor = "#ddd";
+            }
+          });
+
+          if (valid) {
+            alert(
+              "Resultado enviado correctamente. El ranking se actualizará próximamente."
+            );
+            formularioRanking.reset();
+          } else {
+            alert("Por favor, complete todos los campos obligatorios.");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
